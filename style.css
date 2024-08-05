@@ -1,0 +1,48 @@
+:root { 
+	--pico-font-size: 100%; 
+}
+  
+#game-input { 
+	margin: auto; 
+	width: 300px; 
+} 
+
+
+#about-text { 
+	text-align: left; 
+}
+  
+button { 
+	width : 120px; 
+	margin: 5px; 
+}
+
+th, td { 
+	background-color: #202632; 
+}
+
+hr {
+	border-color: #3D475C;
+}
+
+select { 
+	width: 260px;
+	margin: auto;
+}
+
+main { 
+	width: 500px; 
+	text-align: center; 
+	padding: 30px 50px !important; 
+	background-color: #202632; 
+	border-radius: 20px; 
+	box-shadow: 5px 5px 2px #2A3140; 
+}
+
+body, html {
+	display : flex; 
+	align-items: center; 
+	justify-content: center; 
+	width: 100%;
+	height: 90%;
+}
