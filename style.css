@@ -4,17 +4,24 @@
   
 #game-input { 
 	margin: auto; 
-	width: 300px; 
+	width: 200px; 
 } 
 
+#initials-input {
+	width: 100px;
+}
 
 #about-text { 
 	text-align: left; 
 }
-  
+
+#submit-button {
+	width: 150px !important;
+}
+
 button { 
-	width : 120px; 
-	margin: 5px; 
+	min-width : 120px !important; 
+	margin: 5px !important; 
 }
 
 th, td { 
@@ -44,5 +51,6 @@ body, html {
 	align-items: center; 
 	justify-content: center; 
 	width: 100%;
-	height: 90%;
+	height: 100%;
 }
+
