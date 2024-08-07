@@ -180,8 +180,6 @@ def submit_score(session, date: str, score: int, initials: str):
         "date": date,
         "score": score
     })
-    print(session)
-    print(session[GAME_MODE])
 
     # Add game to global score database
     games.insert(Game(
@@ -191,5 +189,4 @@ def submit_score(session, date: str, score: int, initials: str):
         initials=initials
     ))
 
-    print(games())
     return Button("Submitted!", id="submit-button", disabled="true") 

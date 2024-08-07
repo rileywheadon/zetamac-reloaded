@@ -60,7 +60,6 @@ def get_scores(data):
 def update_local(session, game_mode: str):
 
     # Overwrite the session data to ensure no more than 10 entries are kept
-    print(session)
     session.setdefault(game_mode, [])
     data, rows = get_scores(session[game_mode])
     session[game_mode] = data
