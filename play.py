@@ -86,6 +86,7 @@ def play(game_mode: str):
             hx_target = "#score", 
             hx_swap = "innerHTML",
             hx_trigger = "keyup",
+            onkeydown="return event.key != 'Enter';", # disable form submit
             id = "game-input"
         ), Br(),
         Form(
