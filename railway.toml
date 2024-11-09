@@ -3,6 +3,6 @@ builder = "NIXPACKS"
 
 [deploy]
 numReplicas = 1
-sleepApplication = true
-restartPolicyType = "ON_FAILURE"
+sleepApplication = false
+restartPolicyType = "NEVER"
 restartPolicyMaxRetries = 10

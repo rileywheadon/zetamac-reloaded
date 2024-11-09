@@ -8,6 +8,8 @@ def render(game):
         Td(f"{game.score}")
     )
 
+
+
 # Load the database from mathapp.db, create a "games" table if necessary
 app, rt, games, Game = fast_app(
     'data/mathapp.db', 
